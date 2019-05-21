@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Create Buttons with Custom properties</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="intro">
+            <h2>You are supposed to create buttons using the <a href="https://getbootstrap.com">Bootstrap</a> button classes or your custom defined classes in the <code>style.css</code> file.</h2>
+        </div>
+
+        <div class="gap"></div>
+
+        <form id="daphnie">
+            <div class="form-group">
+              <label for="btn-label">Button Label</label>
+              <input type="text" name="btn-label" id="btn-label" class="form-control" placeholder="Button Label">
+            </div>
+    
+            <div class="form-group">
+                <label for="btn-classes">Button Classes</label>
+                <input type="text" name="btn-classes" id="btn-classes" class="form-control" placeholder="Button Classes (comma-separated)">
+            </div>
+    
+            <div class="form-group">
+                <label for="btn-id">Button ID</label>
+                <input type="text" name="btn-id" id="btn-id" class="form-control"
+                    placeholder="Button ID">
+            </div>
+    
+            <button class="btn btn-primary btn-block" id="create-btn" type="submit">Create Button</button>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="buttons">
+                    <!-- this is intentionally left empty!!! -->
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <script src="main.js"></script>
+  </body>
+</html>
